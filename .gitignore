@@ -172,3 +172,51 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# === Deep Learning / CNN Model Files ===
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.tflite
+*.onnx
+
+# === TensorBoard Logs & Outputs ===
+logs/
+tensorboard/
+tb_logs/
+runs/
+output/
+results/
+
+# === Image/Data Files ===
+*.jpeg
+*.jpg
+*.png
+*.bmp
+*.gif
+*.tif
+*.tiff
+
+# Common folders to store data and models
+data/
+datasets/
+images/
+training_data/
+input/
+temp/
+tmp/
+
+# === Numpy / Pickle Files ===
+*.npy
+*.npz
+*.pkl
+
+# === Jupyter Notebook Extra (in case not already included) ===
+.jupyter/
+
+# === Misc ===
+*.bak
+*.swp
